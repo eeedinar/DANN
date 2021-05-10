@@ -1,6 +1,6 @@
 ## Pytoch DANN
 > The original pytorch code is derived from [CuthbertCai][1]. 
-> This is an implementation of [Domain-Adversarial Training of Neural Networks][2] with a GRL(Gradient Reveral Layer). 
+> This is an implementation of [Domain-Adversarial Training of Neural Networks][2] with a Gradient Reveral Layer (GRL).
 
 ### Requirements
 > python 3.6.2  
