@@ -32,8 +32,8 @@ sbatch discovery_job_SVHN_MNIST.script
 sbatch discovery_job_SVHN_USPS.script
 sbatch discovery_job_USPS_MNIST.script
 ```
-> Note: GPU:t4 should be used to be compatible with pytorch and cuda/11.0
-> terminal log file would be something like `exec-18726631.log`
+> Note: GPU:t4 should be used to be compatible with pytorch and cuda/11.0.
+> A terminal log file would be something like `exec-18726631.log`
 
 [1]:https://github.com/CuthbertCai/pytorch_DANN
 [2]:https://arxiv.org/pdf/1505.07818.pdf
