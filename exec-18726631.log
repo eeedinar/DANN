@@ -1,0 +1,368 @@
+no change     /shared/centos7/anaconda3/3.7/condabin/conda
+no change     /shared/centos7/anaconda3/3.7/bin/conda
+no change     /shared/centos7/anaconda3/3.7/bin/conda-env
+no change     /shared/centos7/anaconda3/3.7/bin/activate
+no change     /shared/centos7/anaconda3/3.7/bin/deactivate
+no change     /shared/centos7/anaconda3/3.7/etc/profile.d/conda.sh
+no change     /shared/centos7/anaconda3/3.7/etc/fish/conf.d/conda.fish
+no change     /shared/centos7/anaconda3/3.7/shell/condabin/Conda.psm1
+no change     /shared/centos7/anaconda3/3.7/shell/condabin/conda-hook.ps1
+no change     /shared/centos7/anaconda3/3.7/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /shared/centos7/anaconda3/3.7/etc/profile.d/conda.csh
+no change     /home/bashit.a/.bashrc
+No action taken.
+Mon May 10 02:38:30 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.27.04    Driver Version: 460.27.04    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   51C    P0    17W /  70W |      0MiB / 15109MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+True
+Using downloaded and verified file: ./data/SVHN/train_32x32.mat
+Using downloaded and verified file: ./data/SVHN/extra_32x32.mat
+Using downloaded and verified file: ./data/SVHN/test_32x32.mat
+Epoch: 0
+[9216/60000 (15%)]	Loss: 3.428820	Class Loss: 2.303406	Domain Loss: 1.125414
+[19456/60000 (32%)]	Loss: 3.206597	Class Loss: 2.292441	Domain Loss: 0.914156
+[29696/60000 (49%)]	Loss: 2.937056	Class Loss: 2.278942	Domain Loss: 0.658114
+[39936/60000 (66%)]	Loss: 2.747668	Class Loss: 2.274538	Domain Loss: 0.473130
+[50176/60000 (83%)]	Loss: 2.632644	Class Loss: 2.262857	Domain Loss: 0.369787
+
+Source Accuracy: 104421.0/604388 (17.2771%)
+Target Accuracy: 6742.0/60000 (11.2367%)
+Domain Accuracy: 662606.0/664388 (99.7318%)
+
+Epoch: 1
+[9216/60000 (15%)]	Loss: 2.608466	Class Loss: 2.249261	Domain Loss: 0.359205
+[19456/60000 (32%)]	Loss: 2.832298	Class Loss: 2.257515	Domain Loss: 0.574783
+[29696/60000 (49%)]	Loss: 3.747696	Class Loss: 2.264095	Domain Loss: 1.483601
+[39936/60000 (66%)]	Loss: 3.973315	Class Loss: 2.257525	Domain Loss: 1.715790
+[50176/60000 (83%)]	Loss: 4.098421	Class Loss: 2.257421	Domain Loss: 1.841000
+
+Source Accuracy: 104419.0/604388 (17.2768%)
+Target Accuracy: 6742.0/60000 (11.2367%)
+Domain Accuracy: 369073.0/664388 (55.5508%)
+
+Epoch: 2
+[9216/60000 (15%)]	Loss: 3.578732	Class Loss: 2.288956	Domain Loss: 1.289775
+[19456/60000 (32%)]	Loss: 3.113135	Class Loss: 2.254046	Domain Loss: 0.859089
+[29696/60000 (49%)]	Loss: 3.222400	Class Loss: 2.266786	Domain Loss: 0.955614
+[39936/60000 (66%)]	Loss: 3.091830	Class Loss: 2.270889	Domain Loss: 0.820941
+[50176/60000 (83%)]	Loss: 3.039614	Class Loss: 2.250036	Domain Loss: 0.789578
+
+Source Accuracy: 104419.0/604388 (17.2768%)
+Target Accuracy: 6740.0/60000 (11.2333%)
+Domain Accuracy: 632559.0/664388 (95.2093%)
+
+Epoch: 3
+[9216/60000 (15%)]	Loss: 3.043120	Class Loss: 2.245311	Domain Loss: 0.797809
+[19456/60000 (32%)]	Loss: 3.101033	Class Loss: 2.242250	Domain Loss: 0.858782
+[29696/60000 (49%)]	Loss: 3.092100	Class Loss: 2.262389	Domain Loss: 0.829711
+[39936/60000 (66%)]	Loss: 3.014519	Class Loss: 2.241765	Domain Loss: 0.772754
+[50176/60000 (83%)]	Loss: 3.080089	Class Loss: 2.241954	Domain Loss: 0.838134
+
+Source Accuracy: 104524.0/604388 (17.2942%)
+Target Accuracy: 6742.0/60000 (11.2367%)
+Domain Accuracy: 589786.0/664388 (88.7713%)
+
+Epoch: 4
+[9216/60000 (15%)]	Loss: 3.218238	Class Loss: 2.236108	Domain Loss: 0.982130
+[19456/60000 (32%)]	Loss: 3.183726	Class Loss: 2.264319	Domain Loss: 0.919407
+[29696/60000 (49%)]	Loss: 3.177003	Class Loss: 2.243374	Domain Loss: 0.933629
+[39936/60000 (66%)]	Loss: 3.252316	Class Loss: 2.258636	Domain Loss: 0.993679
+[50176/60000 (83%)]	Loss: 3.154531	Class Loss: 2.267847	Domain Loss: 0.886684
+
+Source Accuracy: 105389.0/604388 (17.4373%)
+Target Accuracy: 6742.0/60000 (11.2367%)
+Domain Accuracy: 620021.0/664388 (93.3221%)
+
+Epoch: 5
+[9216/60000 (15%)]	Loss: 3.211143	Class Loss: 2.228264	Domain Loss: 0.982879
+[19456/60000 (32%)]	Loss: 3.537619	Class Loss: 2.244738	Domain Loss: 1.292880
+[29696/60000 (49%)]	Loss: 3.335267	Class Loss: 2.238092	Domain Loss: 1.097174
+[39936/60000 (66%)]	Loss: 3.195621	Class Loss: 2.245123	Domain Loss: 0.950499
+[50176/60000 (83%)]	Loss: 3.139460	Class Loss: 2.230397	Domain Loss: 0.909063
+
+Source Accuracy: 106227.0/604388 (17.5760%)
+Target Accuracy: 6814.0/60000 (11.3567%)
+Domain Accuracy: 588571.0/664388 (88.5884%)
+
+Epoch: 6
+[9216/60000 (15%)]	Loss: 3.240241	Class Loss: 2.246161	Domain Loss: 0.994080
+[19456/60000 (32%)]	Loss: 3.130687	Class Loss: 2.239182	Domain Loss: 0.891505
+[29696/60000 (49%)]	Loss: 3.129960	Class Loss: 2.248776	Domain Loss: 0.881184
+[39936/60000 (66%)]	Loss: 3.228096	Class Loss: 2.245239	Domain Loss: 0.982858
+[50176/60000 (83%)]	Loss: 3.265195	Class Loss: 2.256515	Domain Loss: 1.008680
+
+Source Accuracy: 109358.0/604388 (18.0940%)
+Target Accuracy: 7532.0/60000 (12.5533%)
+Domain Accuracy: 630889.0/664388 (94.9579%)
+
+Epoch: 7
+[9216/60000 (15%)]	Loss: 3.092968	Class Loss: 2.222638	Domain Loss: 0.870329
+[19456/60000 (32%)]	Loss: 3.081919	Class Loss: 2.236641	Domain Loss: 0.845278
+[29696/60000 (49%)]	Loss: 3.109429	Class Loss: 2.235750	Domain Loss: 0.873679
+[39936/60000 (66%)]	Loss: 3.044835	Class Loss: 2.231720	Domain Loss: 0.813115
+[50176/60000 (83%)]	Loss: 3.175040	Class Loss: 2.238251	Domain Loss: 0.936788
+
+Source Accuracy: 107876.0/604388 (17.8488%)
+Target Accuracy: 7219.0/60000 (12.0317%)
+Domain Accuracy: 620653.0/664388 (93.4173%)
+
+Epoch: 8
+[9216/60000 (15%)]	Loss: 3.309627	Class Loss: 2.244360	Domain Loss: 1.065266
+[19456/60000 (32%)]	Loss: 3.415066	Class Loss: 2.236342	Domain Loss: 1.178724
+[29696/60000 (49%)]	Loss: 3.248815	Class Loss: 2.234700	Domain Loss: 1.014115
+[39936/60000 (66%)]	Loss: 3.144313	Class Loss: 2.249695	Domain Loss: 0.894618
+[50176/60000 (83%)]	Loss: 3.128875	Class Loss: 2.248761	Domain Loss: 0.880113
+
+Source Accuracy: 110284.0/604388 (18.2472%)
+Target Accuracy: 7559.0/60000 (12.5983%)
+Domain Accuracy: 592748.0/664388 (89.2171%)
+
+Epoch: 9
+[9216/60000 (15%)]	Loss: 3.272889	Class Loss: 2.230523	Domain Loss: 1.042366
+[19456/60000 (32%)]	Loss: 3.370625	Class Loss: 2.217317	Domain Loss: 1.153308
+[29696/60000 (49%)]	Loss: 3.352684	Class Loss: 2.219794	Domain Loss: 1.132890
+[39936/60000 (66%)]	Loss: 3.349272	Class Loss: 2.230034	Domain Loss: 1.119237
+[50176/60000 (83%)]	Loss: 3.412928	Class Loss: 2.233292	Domain Loss: 1.179636
+
+Source Accuracy: 111371.0/604388 (18.4271%)
+Target Accuracy: 7439.0/60000 (12.3983%)
+Domain Accuracy: 580064.0/664388 (87.3080%)
+
+Epoch: 10
+[9216/60000 (15%)]	Loss: 3.182129	Class Loss: 2.219177	Domain Loss: 0.962952
+[19456/60000 (32%)]	Loss: 3.179150	Class Loss: 2.232213	Domain Loss: 0.946936
+[29696/60000 (49%)]	Loss: 3.107950	Class Loss: 2.217878	Domain Loss: 0.890072
+[39936/60000 (66%)]	Loss: 3.213977	Class Loss: 2.229452	Domain Loss: 0.984525
+[50176/60000 (83%)]	Loss: 3.397199	Class Loss: 2.236701	Domain Loss: 1.160497
+
+Source Accuracy: 113164.0/604388 (18.7237%)
+Target Accuracy: 7961.0/60000 (13.2683%)
+Domain Accuracy: 609733.0/664388 (91.7736%)
+
+Epoch: 11
+[9216/60000 (15%)]	Loss: 3.404092	Class Loss: 2.213271	Domain Loss: 1.190821
+[19456/60000 (32%)]	Loss: 3.333861	Class Loss: 2.234621	Domain Loss: 1.099240
+[29696/60000 (49%)]	Loss: 3.222814	Class Loss: 2.233036	Domain Loss: 0.989778
+[39936/60000 (66%)]	Loss: 3.157409	Class Loss: 2.225953	Domain Loss: 0.931455
+[50176/60000 (83%)]	Loss: 3.199064	Class Loss: 2.206006	Domain Loss: 0.993058
+
+Source Accuracy: 115395.0/604388 (19.0929%)
+Target Accuracy: 8154.0/60000 (13.5900%)
+Domain Accuracy: 581189.0/664388 (87.4773%)
+
+Epoch: 12
+[9216/60000 (15%)]	Loss: 3.453834	Class Loss: 2.254745	Domain Loss: 1.199089
+[19456/60000 (32%)]	Loss: 3.358475	Class Loss: 2.232103	Domain Loss: 1.126372
+[29696/60000 (49%)]	Loss: 3.258244	Class Loss: 2.202753	Domain Loss: 1.055491
+[39936/60000 (66%)]	Loss: 3.194041	Class Loss: 2.226453	Domain Loss: 0.967588
+[50176/60000 (83%)]	Loss: 3.234452	Class Loss: 2.226233	Domain Loss: 1.008219
+
+Source Accuracy: 116703.0/604388 (19.3093%)
+Target Accuracy: 8238.0/60000 (13.7300%)
+Domain Accuracy: 593969.0/664388 (89.4009%)
+
+Epoch: 13
+[9216/60000 (15%)]	Loss: 3.238912	Class Loss: 2.212027	Domain Loss: 1.026885
+[19456/60000 (32%)]	Loss: 3.376185	Class Loss: 2.205711	Domain Loss: 1.170474
+[29696/60000 (49%)]	Loss: 3.333028	Class Loss: 2.205978	Domain Loss: 1.127049
+[39936/60000 (66%)]	Loss: 3.247560	Class Loss: 2.188056	Domain Loss: 1.059504
+[50176/60000 (83%)]	Loss: 3.220036	Class Loss: 2.196928	Domain Loss: 1.023109
+
+Source Accuracy: 118197.0/604388 (19.5565%)
+Target Accuracy: 8414.0/60000 (14.0233%)
+Domain Accuracy: 587840.0/664388 (88.4784%)
+
+Epoch: 14
+[9216/60000 (15%)]	Loss: 3.199813	Class Loss: 2.198244	Domain Loss: 1.001570
+[19456/60000 (32%)]	Loss: 3.221823	Class Loss: 2.199069	Domain Loss: 1.022753
+[29696/60000 (49%)]	Loss: 3.248020	Class Loss: 2.213431	Domain Loss: 1.034589
+[39936/60000 (66%)]	Loss: 3.268023	Class Loss: 2.201577	Domain Loss: 1.066446
+[50176/60000 (83%)]	Loss: 3.248549	Class Loss: 2.225841	Domain Loss: 1.022708
+
+Source Accuracy: 118503.0/604388 (19.6071%)
+Target Accuracy: 8331.0/60000 (13.8850%)
+Domain Accuracy: 603062.0/664388 (90.7696%)
+
+Epoch: 15
+[9216/60000 (15%)]	Loss: 3.128355	Class Loss: 2.223330	Domain Loss: 0.905025
+[19456/60000 (32%)]	Loss: 3.123751	Class Loss: 2.214842	Domain Loss: 0.908909
+[29696/60000 (49%)]	Loss: 3.201745	Class Loss: 2.214847	Domain Loss: 0.986898
+[39936/60000 (66%)]	Loss: 3.192548	Class Loss: 2.220189	Domain Loss: 0.972359
+[50176/60000 (83%)]	Loss: 3.208223	Class Loss: 2.218089	Domain Loss: 0.990135
+
+Source Accuracy: 119605.0/604388 (19.7894%)
+Target Accuracy: 8137.0/60000 (13.5617%)
+Domain Accuracy: 596512.0/664388 (89.7837%)
+
+Epoch: 16
+[9216/60000 (15%)]	Loss: 3.205155	Class Loss: 2.216054	Domain Loss: 0.989101
+[19456/60000 (32%)]	Loss: 3.171048	Class Loss: 2.194788	Domain Loss: 0.976260
+[29696/60000 (49%)]	Loss: 3.245022	Class Loss: 2.192225	Domain Loss: 1.052797
+[39936/60000 (66%)]	Loss: 3.249640	Class Loss: 2.227094	Domain Loss: 1.022546
+[50176/60000 (83%)]	Loss: 3.215599	Class Loss: 2.216780	Domain Loss: 0.998818
+
+Source Accuracy: 120156.0/604388 (19.8806%)
+Target Accuracy: 8329.0/60000 (13.8817%)
+Domain Accuracy: 571321.0/664388 (85.9921%)
+
+Epoch: 17
+[9216/60000 (15%)]	Loss: 3.146832	Class Loss: 2.202101	Domain Loss: 0.944732
+[19456/60000 (32%)]	Loss: 3.208104	Class Loss: 2.213237	Domain Loss: 0.994867
+[29696/60000 (49%)]	Loss: 3.222512	Class Loss: 2.195008	Domain Loss: 1.027505
+[39936/60000 (66%)]	Loss: 3.206340	Class Loss: 2.199768	Domain Loss: 1.006572
+[50176/60000 (83%)]	Loss: 3.241505	Class Loss: 2.228932	Domain Loss: 1.012573
+
+Source Accuracy: 121313.0/604388 (20.0720%)
+Target Accuracy: 8134.0/60000 (13.5567%)
+Domain Accuracy: 598080.0/664388 (90.0197%)
+
+Epoch: 18
+[9216/60000 (15%)]	Loss: 3.291907	Class Loss: 2.234168	Domain Loss: 1.057738
+[19456/60000 (32%)]	Loss: 3.241540	Class Loss: 2.224000	Domain Loss: 1.017540
+[29696/60000 (49%)]	Loss: 3.237277	Class Loss: 2.202503	Domain Loss: 1.034774
+[39936/60000 (66%)]	Loss: 3.224321	Class Loss: 2.226969	Domain Loss: 0.997353
+[50176/60000 (83%)]	Loss: 3.167899	Class Loss: 2.205244	Domain Loss: 0.962655
+
+Source Accuracy: 121598.0/604388 (20.1192%)
+Target Accuracy: 8378.0/60000 (13.9633%)
+Domain Accuracy: 581600.0/664388 (87.5392%)
+
+Epoch: 19
+[9216/60000 (15%)]	Loss: 3.213739	Class Loss: 2.208160	Domain Loss: 1.005579
+[19456/60000 (32%)]	Loss: 3.187305	Class Loss: 2.216019	Domain Loss: 0.971287
+[29696/60000 (49%)]	Loss: 3.165142	Class Loss: 2.201206	Domain Loss: 0.963936
+[39936/60000 (66%)]	Loss: 3.172243	Class Loss: 2.174092	Domain Loss: 0.998150
+[50176/60000 (83%)]	Loss: 3.168952	Class Loss: 2.196006	Domain Loss: 0.972946
+
+Source Accuracy: 124027.0/604388 (20.5211%)
+Target Accuracy: 8309.0/60000 (13.8483%)
+Domain Accuracy: 590080.0/664388 (88.8156%)
+
+Epoch: 20
+[9216/60000 (15%)]	Loss: 3.238589	Class Loss: 2.207312	Domain Loss: 1.031278
+[19456/60000 (32%)]	Loss: 3.245165	Class Loss: 2.209786	Domain Loss: 1.035379
+[29696/60000 (49%)]	Loss: 3.213558	Class Loss: 2.182149	Domain Loss: 1.031409
+[39936/60000 (66%)]	Loss: 3.180496	Class Loss: 2.170897	Domain Loss: 1.009599
+[50176/60000 (83%)]	Loss: 3.225016	Class Loss: 2.202812	Domain Loss: 1.022204
+
+Source Accuracy: 125615.0/604388 (20.7838%)
+Target Accuracy: 8271.0/60000 (13.7850%)
+Domain Accuracy: 576995.0/664388 (86.8461%)
+
+Epoch: 21
+[9216/60000 (15%)]	Loss: 3.195758	Class Loss: 2.208649	Domain Loss: 0.987109
+[19456/60000 (32%)]	Loss: 3.169731	Class Loss: 2.202986	Domain Loss: 0.966745
+[29696/60000 (49%)]	Loss: 3.170081	Class Loss: 2.220652	Domain Loss: 0.949429
+[39936/60000 (66%)]	Loss: 3.180340	Class Loss: 2.189343	Domain Loss: 0.990997
+[50176/60000 (83%)]	Loss: 3.175499	Class Loss: 2.182217	Domain Loss: 0.993282
+
+Source Accuracy: 124882.0/604388 (20.6626%)
+Target Accuracy: 8008.0/60000 (13.3467%)
+Domain Accuracy: 581693.0/664388 (87.5532%)
+
+Epoch: 22
+[9216/60000 (15%)]	Loss: 3.202577	Class Loss: 2.214751	Domain Loss: 0.987826
+[19456/60000 (32%)]	Loss: 3.215555	Class Loss: 2.187842	Domain Loss: 1.027713
+[29696/60000 (49%)]	Loss: 3.216411	Class Loss: 2.192627	Domain Loss: 1.023784
+[39936/60000 (66%)]	Loss: 3.229966	Class Loss: 2.212334	Domain Loss: 1.017632
+[50176/60000 (83%)]	Loss: 3.229014	Class Loss: 2.200895	Domain Loss: 1.028119
+
+Source Accuracy: 124495.0/604388 (20.5985%)
+Target Accuracy: 8121.0/60000 (13.5350%)
+Domain Accuracy: 589331.0/664388 (88.7028%)
+
+Epoch: 23
+[9216/60000 (15%)]	Loss: 3.210160	Class Loss: 2.188486	Domain Loss: 1.021674
+[19456/60000 (32%)]	Loss: 3.193303	Class Loss: 2.194668	Domain Loss: 0.998635
+[29696/60000 (49%)]	Loss: 3.177659	Class Loss: 2.175045	Domain Loss: 1.002613
+[39936/60000 (66%)]	Loss: 3.195140	Class Loss: 2.195844	Domain Loss: 0.999296
+[50176/60000 (83%)]	Loss: 3.207155	Class Loss: 2.186179	Domain Loss: 1.020976
+
+Source Accuracy: 124460.0/604388 (20.5927%)
+Target Accuracy: 8360.0/60000 (13.9333%)
+Domain Accuracy: 579038.0/664388 (87.1536%)
+
+Epoch: 24
+[9216/60000 (15%)]	Loss: 3.168788	Class Loss: 2.183081	Domain Loss: 0.985707
+[19456/60000 (32%)]	Loss: 3.218685	Class Loss: 2.194037	Domain Loss: 1.024648
+[29696/60000 (49%)]	Loss: 3.244138	Class Loss: 2.199198	Domain Loss: 1.044940
+[39936/60000 (66%)]	Loss: 3.235303	Class Loss: 2.194807	Domain Loss: 1.040496
+[50176/60000 (83%)]	Loss: 3.230547	Class Loss: 2.198181	Domain Loss: 1.032366
+
+Source Accuracy: 127500.0/604388 (21.0957%)
+Target Accuracy: 7793.0/60000 (12.9883%)
+Domain Accuracy: 588565.0/664388 (88.5875%)
+
+Epoch: 25
+[9216/60000 (15%)]	Loss: 3.239771	Class Loss: 2.197564	Domain Loss: 1.042207
+[19456/60000 (32%)]	Loss: 3.225018	Class Loss: 2.178226	Domain Loss: 1.046792
+[29696/60000 (49%)]	Loss: 3.170150	Class Loss: 2.168283	Domain Loss: 1.001866
+[39936/60000 (66%)]	Loss: 3.194377	Class Loss: 2.179150	Domain Loss: 1.015227
+[50176/60000 (83%)]	Loss: 3.222217	Class Loss: 2.196974	Domain Loss: 1.025243
+
+Source Accuracy: 126316.0/604388 (20.8998%)
+Target Accuracy: 7793.0/60000 (12.9883%)
+Domain Accuracy: 578540.0/664388 (87.0786%)
+
+Epoch: 26
+[9216/60000 (15%)]	Loss: 3.230694	Class Loss: 2.168875	Domain Loss: 1.061818
+[19456/60000 (32%)]	Loss: 3.229920	Class Loss: 2.209661	Domain Loss: 1.020259
+[29696/60000 (49%)]	Loss: 3.199171	Class Loss: 2.174127	Domain Loss: 1.025044
+[39936/60000 (66%)]	Loss: 3.230181	Class Loss: 2.188078	Domain Loss: 1.042103
+[50176/60000 (83%)]	Loss: 3.237518	Class Loss: 2.185205	Domain Loss: 1.052313
+
+Source Accuracy: 127096.0/604388 (21.0289%)
+Target Accuracy: 8428.0/60000 (14.0467%)
+Domain Accuracy: 571521.0/664388 (86.0222%)
+
+Epoch: 27
+[9216/60000 (15%)]	Loss: 3.245362	Class Loss: 2.202927	Domain Loss: 1.042435
+[19456/60000 (32%)]	Loss: 3.212768	Class Loss: 2.169657	Domain Loss: 1.043111
+[29696/60000 (49%)]	Loss: 3.236709	Class Loss: 2.216011	Domain Loss: 1.020698
+[39936/60000 (66%)]	Loss: 3.234145	Class Loss: 2.203434	Domain Loss: 1.030711
+[50176/60000 (83%)]	Loss: 3.267781	Class Loss: 2.192542	Domain Loss: 1.075239
+
+Source Accuracy: 127574.0/604388 (21.1080%)
+Target Accuracy: 8356.0/60000 (13.9267%)
+Domain Accuracy: 572265.0/664388 (86.1342%)
+
+Epoch: 28
+[9216/60000 (15%)]	Loss: 3.279175	Class Loss: 2.201295	Domain Loss: 1.077880
+[19456/60000 (32%)]	Loss: 3.287074	Class Loss: 2.175455	Domain Loss: 1.111619
+[29696/60000 (49%)]	Loss: 3.252084	Class Loss: 2.183960	Domain Loss: 1.068123
+[39936/60000 (66%)]	Loss: 3.220812	Class Loss: 2.179647	Domain Loss: 1.041165
+[50176/60000 (83%)]	Loss: 3.242867	Class Loss: 2.162791	Domain Loss: 1.080076
+
+Source Accuracy: 126390.0/604388 (20.9121%)
+Target Accuracy: 8291.0/60000 (13.8183%)
+Domain Accuracy: 575110.0/664388 (86.5624%)
+
+Epoch: 29
+[9216/60000 (15%)]	Loss: 3.264187	Class Loss: 2.191100	Domain Loss: 1.073086
+[19456/60000 (32%)]	Loss: 3.253099	Class Loss: 2.174244	Domain Loss: 1.078855
+[29696/60000 (49%)]	Loss: 3.293009	Class Loss: 2.197557	Domain Loss: 1.095452
+[39936/60000 (66%)]	Loss: 3.280309	Class Loss: 2.180099	Domain Loss: 1.100210
+[50176/60000 (83%)]	Loss: 3.259485	Class Loss: 2.171604	Domain Loss: 1.087881
+
+Source Accuracy: 129584.0/604388 (21.4405%)
+Target Accuracy: 8204.0/60000 (13.6733%)
+Domain Accuracy: 556407.0/664388 (83.7473%)
+
+Finished Processing to  ./SVHN_MNIST
