@@ -33,7 +33,13 @@ sbatch discovery_job_SVHN_USPS.script
 sbatch discovery_job_USPS_MNIST.script
 ```
 > Note: GPU:t4 should be used to be compatible with pytorch and cuda/11.0.
-> A terminal log file would be something like `exec-18726631.log`
+
+### Outputs
+> A terminal output would be something like `exec-18726631.log` <br />
+> SVHN_MNIST, SVHN_USPS, and USPS_MNIST folders are the output of the program
+>> Each directory contains csv file (Row1: Soure Accuracy, Row2: Target Accuracy, Row3: Domain Accuracy) <br />
+>> png file (Training accuracy vs iteration)
+
 
 [1]:https://github.com/CuthbertCai/pytorch_DANN
 [2]:https://arxiv.org/pdf/1505.07818.pdf
