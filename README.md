@@ -1,8 +1,8 @@
-## Pytoch_DANN
+## Pytoch DANN
 > The original pytorch code is derived from [CuthbertCai][1]. 
 > This is an implementation of [Domain-Adversarial Training of Neural Networks][2] with a GRL(Gradient Reveral Layer). 
 
-### requirements
+### Requirements
 > python 3.6.2  
 > `pip install -r requirements.txt`
 
@@ -34,7 +34,6 @@ sbatch discovery_job_USPS_MNIST.script
 ```
 > Note: GPU:t4 should be used to be compatible with pytorch and cuda/11.0
 > terminal log file would be something like `exec-18726631.log`
-
 
 [1]:https://github.com/CuthbertCai/pytorch_DANN
 [2]:https://arxiv.org/pdf/1505.07818.pdf
