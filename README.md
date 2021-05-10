@@ -25,7 +25,7 @@ python3 main.py --source_domain USPS --target_domain MNIST --save_dir ./USPS_MNI
 ### Run on Google Colab (Copy directory in your Google Drive)
 > run `pytorch_colab.ipynb`
 
-### Run on Discovery Cluster (Copy directory in your Google Drive)
+### Run on Discovery Cluster
 > run the followig:
 ```
 sbatch discovery_job_SVHN_MNIST.script
