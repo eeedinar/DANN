@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name=svhn_mnist                            # Job name
+#SBATCH --nodes=1
+#SBATCH --time=8:00:00                              # Time limit hrs:min:sec
+#SBATCH --mem=8G                                    # Job memory request
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:t4:1                           # requries t4 to make use of cuda/11.0 with proper comutability
+#SBATCH --output=exec-%j.log                   # Standard output and error log
+#SBATCH --mail-type=END,FAIL                      # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=bashit.a@northeastern.edu     # Where to send mail
+
+conda init bash     # To use conda env list this command modifies ~/bashrc
+source ~/.bashrc    # this will activate the base environment, which will be reflected in your shell prompt
+module load cuda/11.0
+module load anaconda3/3.7
+conda activate /home/bashit.a/.conda/envs/pytorch_env
+
+nvidia-smi
+python3 -c'import torch; print(torch.cuda.is_available())'
+
+python3 main.py --source_domain SVHN --target_domain MNIST --save_dir ./SVHN_MNIST --max_epoch 30
