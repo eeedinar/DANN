@@ -38,6 +38,6 @@ sbatch discovery_job_USPS_MNIST.script
 
 
 
-[1]:https://arxiv.org/pdf/1505.07818.pdf
-[2]:https://github.com/CuthbertCai/pytorch_DANN
+[1]:https://github.com/CuthbertCai/pytorch_DANN
+[2]:https://arxiv.org/pdf/1505.07818.pdf
 [3]:http://yaroslav.ganin.net/
